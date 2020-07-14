@@ -1541,11 +1541,6 @@ syntax keyword vkFunction vkDestroyDebugReportCallbackEXT
 syntax keyword vkFunction vkDebugReportMessageEXT
 
 
-
-
-
-
-
 " Default highlighting
 if version >= 508 || !exists("did_c_opengl_syntax_inits")
 	if version < 508
@@ -1559,5 +1554,3 @@ if version >= 508 || !exists("did_c_opengl_syntax_inits")
 	HiLink vkFunction            Function
 	delcommand HiLink
 endif
-
-
